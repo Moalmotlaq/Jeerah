@@ -761,31 +761,23 @@ h2 {
   vertical-align: middle; /* Adjust alignment */
 }
 
-#partners {
-  background-color: #f5f5f5;
-  padding: 20px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center-align content horizontally */
-  text-align: center; /* Center-align text */
+/* Adjust the size of partner logos */
+.partner-item img {
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 10px; /* Add margin between logos */
 }
 
-.partners-container {
+/* Create a loop animation */
+.partner-list {
   overflow: hidden;
   white-space: nowrap;
 }
 
-.partner-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.partner-item {
   display: inline-block;
+  margin-right: 20px; /* Add margin between logos */
   animation: moveLeftToRight 10s linear infinite;
-}
-
-.partner-list li {
-  display: inline-block;
-  margin-right: 20px;
 }
 
 @keyframes moveLeftToRight {
@@ -796,18 +788,4 @@ h2 {
     transform: translateX(-100%);
   }
 }
-
-.logo img {
-  max-height: 30px; /* Adjust the max-height as needed */
-  width: auto;
-}
-
-
-
-/* Adjust the logo size as needed */
-.partner-logo {
-  width: 50px; /* Adjust the width as needed */
-  height: auto;
-}
-
 
