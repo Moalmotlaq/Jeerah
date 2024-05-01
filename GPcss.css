@@ -545,7 +545,7 @@ h2 {
   background-color: #333;
   color: #fff;
   padding: 30px;
-  width: 100%;
+  
   /* position: fixed; */
   bottom: 0;
   left: 0;
@@ -773,6 +773,7 @@ h2 {
 }
 
 .partners-container {
+  width: 100;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -786,6 +787,7 @@ h2 {
 
 /* Create a loop animation */
 .partner-list {
+  width: 100%;
   overflow: hidden;
   white-space: nowrap;
 }
