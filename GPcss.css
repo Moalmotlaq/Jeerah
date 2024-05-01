@@ -99,6 +99,7 @@ p {
   }
   
   .nav {
+    width: 100%;
     display: flex;
     margin-left: auto;
   }
@@ -225,6 +226,18 @@ p {
   
     .nav {
       margin-top: 20px;
+      width: 100% ;
+      justify-content: space-evenly;
+      
+
+    }
+    .nav-link {
+      font-size: 14px;
+      color: #fff;
+      text-decoration: none;
+      margin-right: auto;
+      display: flex; /* Ensures vertical alignment */
+      align-items: center; /* Centers links vertically */
     }
   
     .hero {
