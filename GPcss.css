@@ -847,6 +847,7 @@ h2 {
 }
 
 .logos {
+  width: 100%;
   overflow: hidden;
   padding: 30px 0px;
   white-space: nowrap;
@@ -862,7 +863,7 @@ h2 {
   z-index: 2;
 }
 
-.logos:before {
+/* .logos:before {
   left: 0;
   background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255));
 }
@@ -870,7 +871,7 @@ h2 {
 .logos:after {
   right: 0;
   background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255));
-}
+} */
 
 .logo_items {
   display: inline-block;
