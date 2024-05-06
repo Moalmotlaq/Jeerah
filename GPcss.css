@@ -125,6 +125,10 @@ p {
   .hero-content {
     max-width: 600px;
   }
+
+  .hero-container{
+    height: 200px;
+  }
   
   .hero-title {
     font-size: 48px;
